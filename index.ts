@@ -1,5 +1,5 @@
 import bodyParser from "body-parser";
-import Server from "./casses/server";
+import Server from "./classes/server";
 import router from "./routes/router";
 import cors from "cors";
 const server = Server.instance;
